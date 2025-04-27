@@ -162,10 +162,28 @@ To write a C Program to count total number of positive elements in an array.
 6.	Stop the program.
 
 ## PROGRAM
+``````
+#include<stdio.h>
+int main(){
+    int n,count=0;
+    scanf("%d",&n);
+    int a[n];
+    for(int i=0;i<n;i++){
+        scanf("%d",&a[i]);
+    }
+    for(int i=0;i<n;i++){
+        if(a[i]>0){
+            count++;
+        }
+    }
+    printf("count  of positive numbers  in array: %d",count);
+}
+``````
 
 
 ## OUTPUT
 
+![image](https://github.com/user-attachments/assets/49bc8430-7d06-472c-9576-7f86109aa3b9)
 
 
 
